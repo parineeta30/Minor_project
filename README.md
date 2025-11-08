@@ -35,7 +35,7 @@ news-bias-detector/
 └── .gitignore
 
 
-## Setup Instructions### Prereisites
+## Setup Instructions### Prerequisites
 
 Python 3.x installed
 
@@ -137,5 +137,6 @@ Start React frontend:
 
 npm start
 (Your browser will open at localhost:3000)
+
 
 
