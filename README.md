@@ -67,3 +67,43 @@ npm install
 # Run the frontend server
 npm start
 
+### What I Have Built So Far
+1. Backend (Flask + Python + ML)
+Built a Flask backend in Python.
+
+Fetches the latest news articles from global sources using RSS feeds.
+
+Uses a pre-trained BERT (transformer) model to analyze sentiment of each article.
+
+Applies basic rules to estimate bias (left, right, neutral).
+
+Exposes REST API endpoints for news, stats, and analysis.
+
+2. Frontend (React Dashboard)
+Built a React.js dashboard (with charts and tables).
+
+Displays live bias and sentiment stats for analyzed articles.
+
+Shows a list of articles with their bias/sentiment labels and direct links.
+
+“Fetch Latest News” button triggers backend analysis and data refresh.
+
+3. Machine Learning Integration
+BERT model is used in backend to automatically analyze news text for sentiment and bias.
+
+Analysis is automated—each time new articles are fetched, the ML model generates results.
+
+4. Project Flow
+Backend server runs API and ML analysis.
+
+Frontend dashboard connects to backend, fetches data, and shows it visually.
+
+5. Learning Process
+Followed a structured approach, setting up project folders, installing required packages, and wiring up backend APIs to frontend.
+
+Used online resources and step-by-step help for troubleshooting and implementation.
+
+Successfully fixed errors, managed dependencies, and visualized results from ML predictions.
+
+In short:
+I’ve created a working news bias detection app with a Python/Flask backend (using BERT ML model), and a React dashboard frontend. Right now it analyzes and displays bias/sentiment of global news articles, fully working end-to-end.
