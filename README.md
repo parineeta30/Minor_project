@@ -67,7 +67,7 @@ npm install
 # Run the frontend server
 npm start
 
-### What I Have Built So Far
+### What I Have Built So Far + TECH STACK (yet)
 1. Backend (Flask + Python + ML)
 Built a Flask backend in Python.
 
@@ -107,3 +107,34 @@ Successfully fixed errors, managed dependencies, and visualized results from ML 
 
 In short:
 I’ve created a working news bias detection app with a Python/Flask backend (using BERT ML model), and a React dashboard frontend. Right now it analyzes and displays bias/sentiment of global news articles, fully working end-to-end.
+
+## How to start :
+
+1. Start Backend (Flask) API
+In your project root or backend folder:
+
+Open a new Command Prompt.
+
+Activate your Python environment: cd C:\Users\...\news-bias-detector
+.\news_bias_env\Scripts\activate
+
+** Move to backend folder:
+
+cd backend
+
+** Start Flask backend:
+
+python app.py
+
+** Leave this terminal running! **
+
+2. Start Frontend (React App)
+In a second new Command Prompt:
+Go to your frontend folder:
+
+cd C:\Users\...\news-bias-detector\frontend
+Start React frontend:
+
+npm start
+(Your browser will open at localhost:3000)
+
